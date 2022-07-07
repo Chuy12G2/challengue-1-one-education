@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="contenido-principal">
+        <nav>
+            <h1 class="titulo-h1">Encriptador de Texto</h1>
+        </nav>
+
+        <div class="contenido-izquierda">
+            <textarea class="text-area texto-input"  name="" id=""  placeholder="Ingrese el texto aquí"></textarea>
+            <p>	&#9888 Solo letras minúsculas y sin acento</p>
+            <div class="botones-izquierda">
+                <button class="boton btn-encriptar" id="boton-encriptar">Encriptar</button>
+                <button class="boton btn-desencriptar" id="boton-desencriptar">Desencriptar</button>
+            </div>
+
+
+        </div>
+
+        <div class="contenido-derecha">
+            <div class="div-resultado oculto">
+                <textarea class="resultado-texto" name="" id="" cols="30" rows="10"></textarea>
+                <button class="boton btn-copiar">Copiar</button>
+            </div>
+            
+            <div class="div-buscar">
+                <img class="imagen-busqueda" src="imagenes/buscar.png" alt="">
+                <h3>Ningún texto fue encontrado</h3>
+                <p>Ingresa el texto que desea Encriptar o Desencriptar</p>
+            </div>
+         </div>
+
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
